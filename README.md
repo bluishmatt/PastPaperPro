@@ -1,70 +1,87 @@
+# Project Name
+> Outline a brief description of your project.
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
 
- ______  ______  ______  ______     ______  ______  ______  ______  ______      
-/\  == \/\  __ \/\  ___\/\__  _\   /\  == \/\  __ \/\  == \/\  ___\/\  == \     
-\ \  _-/\ \  __ \ \___  \/_/\ \/   \ \  _-/\ \  __ \ \  _-/\ \  __\\ \  __<     
- \ \_\   \ \_\ \_\/\_____\ \ \_\    \ \_\   \ \_\ \_\ \_\   \ \_____\ \_\ \_\   
-  \/_/    \/_/\/_/\/_____/  \/_/     \/_/    \/_/\/_/\/_/    \/_____/\/_/ /_/   
-                                                                                
-                            ______  ______  ______                              
-                           /\  == \/\  == \/\  __ \                             
-                           \ \  _-/\ \  __<\ \ \/\ \                            
-                            \ \_\   \ \_\ \_\ \_____\                           
-                             \/_/    \/_/ /_/\/_____/                           
-                                                                                
+## General Information
+- Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
+## Technologies Used
+- Tech 1 - version 1.0
+- Tech 2 - version 2.0
+- Tech 3 - version 3.0
 
 
-
-FreeGeoIP for Laravel 4
-=======================
-
-Laravel 4 Library for calling http://freegeoip.net/ API.
-
-In contrary to all other packages wherein it requires that you have the geoip database in your filesystem, this library calls a free service
-So you dont really have to worry about downloading and maintaining geoip data from Maxmind in your own server.
-
-Just install the package, add the config and it is ready to use!
+## Features
+List the ready features here:
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
 
 
-Requirements
-============
-
-* Java 8
-* Your own exam papers. Papers are not provided.
-
-Installation
-============
-
-    composer require buonzz/laravel-4-freegeoip:dev-master
-
-Add the service provider and facade in your config/app.php
-
-Service Provider
-
-    Buonzz\GeoIP\Laravel4\ServiceProviders\GeoIPServiceProvider
-
-Facade
-
-    'GeoIP'            => 'Buonzz\GeoIP\Laravel4\Facades\GeoIP',
+## Screenshots
+![Example screenshot](./img/ppp.png)
 
 
-Usage
-=====
+## Setup
+What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Get country of the visitor
-
-    GeoIP::getCountry();  // returns "United States"
-
-Get country code of the visitor
-
-    GeoIP::getCountryCode();  // returns "US"
-
-Get region of the visitor
+Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
-Credits
-=======
+## Usage
+How does one go about using it?
+Provide various use cases and code examples here.
 
-* Matt Elliot
+`write-your-code-here`
+
+
+## Project Status
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+
+
+## Room for Improvement
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
+Room for improvement:
+- Improvement to be done 1
+- Improvement to be done 2
+
+To do:
+- Feature to be added 1
+- Feature to be added 2
+
+
+## Acknowledgements
+Give credit here.
+- This project was inspired by...
+- This project was based on [this tutorial](https://www.example.com).
+- Many thanks to...
+
+
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
