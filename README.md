@@ -37,7 +37,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/ppp.png)
+![Example screenshot](../images/ppp.png)
 
 
 ## Setup
