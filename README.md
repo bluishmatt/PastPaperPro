@@ -19,6 +19,8 @@ Past Paper Pro will hopefully make it easier for teachers of any subject to mana
 
 IB Past papers are copyrighted and will not be shared here. This program relies on you having your own copies of past papers and placing them in the correct folder. See Setup and Usage. You can share your topics.json data which contains all the information about the IB Past papers that have been processed.
 
+I will keep my Computer Science Json file here for anyone to use. If you would like to add a json file for another course, email it me and I'll add it.
+
 ## Technologies Used
 - Java 8
 
