@@ -36,31 +36,7 @@ IB Past papers are copyrighted and will not be shared here. This program relies 
 This program uses a specific folder structure for the papers and has been tested with IB DP papers. 
 Download the zipped file at the top of this page and extract it anywhere on your computer. If you don't want all the java files, the following is the minimum you need:
 
- 
-\---Past Paper Pro
-    |   topics.json
-    |   PastPaperPro.jar
-    |   
-    +---Papers
-    |   |           
-    |   +---2019
-    |   |   +---May
-    |   |   |       Computer_science_paper_1__HL.pdf
-    |   |   |       Computer_science_paper_1__HL_markscheme.pdf
-    |   |   |       Computer_science_paper_1__SL.pdf
-    |   |   |       Computer_science_paper_1__SL_markscheme.pdf
-    |   |   |       etc..
-    |   |   \---Nov
-    |   |           Computer_science_paper_1__HL.pdf
-    |   |           Computer_science_paper_1__HL_markscheme.pdf
-    |   |           Computer_science_paper_1__SL.pdf
-    |   |           Computer_science_paper_1__SL_markscheme.pdf
-    |   |           etc..
-    |   \---2020
-    |       +---May
-    |       \---Nov      ***Add any other papers you want.***
-    \
-
+![Example screenshot](./images/FileStructure.png)
 
 ## Usage
 The program stores data (paper, question number, location) about questions in topics.Json. This can be shared with anyone you like.
