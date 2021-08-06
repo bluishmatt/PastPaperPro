@@ -10,30 +10,23 @@
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Past Paper Pro was created as a solution to the lack of paper/question management currently avaliable for the IB DP Computer Science programme. Although the IB promotes their own question bank via titleware, it isn't avaliable for Computer Science, and has a yearly subscription.
 
+Past Paper Pro will hopefully make it easier for teachers of any subject to manage past papers for free!
+
+IB Past papers are copyrighted and will not be shared here. This program relies on you having your own copies of past papers and placing them in the correct folder. See Setup and Usage. You can share your topics.json data which contains all the information about the IB Past papers that have been processed.
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Java 8
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Find all questions by topic with their markschemes.
+- Get a revision list of topics in a paper.
 
 
 ## Screenshots
@@ -41,47 +34,66 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+This program uses a specific folder structure for the papers and has been tested with IB DP papers. 
+Download the zipped file at the top of this page and extract it anywhere on your computer. If you don't want all the java files, the following is the minimum you need:
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+ 
+\---Past Paper Pro
+    |   topics.json
+    |   PastPaperPro.jar
+    |   
+    +---Papers
+    |   |           
+    |   +---2019
+    |   |   +---May
+    |   |   |       Computer_science_paper_1__HL.pdf
+    |   |   |       Computer_science_paper_1__HL_markscheme.pdf
+    |   |   |       Computer_science_paper_1__SL.pdf
+    |   |   |       Computer_science_paper_1__SL_markscheme.pdf
+    |   |   |       etc..
+    |   |   \---Nov
+    |   |           Computer_science_paper_1__HL.pdf
+    |   |           Computer_science_paper_1__HL_markscheme.pdf
+    |   |           Computer_science_paper_1__SL.pdf
+    |   |           Computer_science_paper_1__SL_markscheme.pdf
+    |   |           etc..
+    |   \---2020
+    |       +---May
+    |       \---Nov      ***Add any other papers you want.***
+    \
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+The program stores data (paper, question number, location) about questions in topics.Json. This can be shared with anyone you like.
 
-`write-your-code-here`
+On the first run the program will need to convert all pdfs it can find into PNGs. 
 
+**Adding / modifying topics**
+If you are using this for a course that isn't Computer Science, you'll need to first create the topics of your course.
+Click the modify topics button. Add topics as you please. The structure is Topic Number > Topic > Subtopic. If a topic doesn't have a subtopic, leave it blank. 
+
+**Adding a new paper**
+When adding a new paper into the folder structure it will be converted to PNG.
+Once complete you will see the new paper in the list of past papers. Select the new paper and there will no questions created for it yet (unless someone shared their topic.json file with you.
+
+**Adding a new question**
+To add a new question to the paper, scroll to the question on the paper and markscheme tabs, click add question and fill in the information.
+
+**Modifying a question**
+If you want to correct a mistake, click the modify question button. From here you can change the question number, scroll to a new location and click update, or change/add/remove topics for the question.
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+Project is: _in progress_.
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Loading bar when loading the program for the first time. (When converting files, you see nothing. just wait...).
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Paper creator - Would be great to have the option of creating a new paper with a mixture of past paper questions. Could select/weight topics.
 
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+If you would like to request an improvement/feature, let me know. If you have any difficulties or problems I am also happy to help.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Matt Elliot](bluishmatt@gmail.com) - feel free to contact me!
