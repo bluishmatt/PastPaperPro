@@ -1,5 +1,4 @@
-# Project Name
-> Outline a brief description of your project.
+# PastPaperPro
 
 ## Table of Contents
 * [General Info](#general-information)
