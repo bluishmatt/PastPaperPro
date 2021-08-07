@@ -46,17 +46,21 @@ The program stores data (paper, question number, location) about questions in to
 On the first run the program will need to convert all pdfs it can find into PNGs. 
 
 **Adding / modifying topics**
+
 If you are using this for a course that isn't Computer Science, you'll need to first create the topics of your course.
 Click the modify topics button. Add topics as you please. The structure is Topic Number > Topic > Subtopic. If a topic doesn't have a subtopic, leave it blank. 
 
 **Adding a new paper**
-When adding a new paper into the folder structure it will be converted to PNG.
+
+When adding a new paper into the folder structure it will be converted to PNG automatically the next time you start the program.
 Once complete you will see the new paper in the list of past papers. Select the new paper and there will no questions created for it yet (unless someone shared their topic.json file with you.
 
 **Adding a new question**
+
 To add a new question to the paper, scroll to the question on the paper and markscheme tabs, click add question and fill in the information.
 
 **Modifying a question**
+
 If you want to correct a mistake, click the modify question button. From here you can change the question number, scroll to a new location and click update, or change/add/remove topics for the question.
 
 ## Project Status
