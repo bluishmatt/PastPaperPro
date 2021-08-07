@@ -142,6 +142,8 @@ public class PrimaryController {
 
         Task task = new Task<Void>() {
             @Override public Void call() throws IOException {
+
+
                     java.nio.file.Files.walk(
                             Paths.get("Papers/"))
                             .filter(java.nio.file.Files::isRegularFile)
