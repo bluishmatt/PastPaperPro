@@ -3,7 +3,9 @@ package co.uk.mattelliot;
 import java.awt.*;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.image.BufferedImage;
+import java.awt.print.Paper;
 import java.io.*;
+import java.lang.reflect.Array;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
@@ -78,6 +80,7 @@ public class PrimaryController {
     private ListView lastSelectedList = mpaperSelectListView;
     private double xOffset = 0;
     private double yOffset = 0;
+    public String markschemeString = "";
 
     public void pdftoimage(String pdf){
         ArrayList<BufferedImage> images = new ArrayList<>();
@@ -125,6 +128,8 @@ public class PrimaryController {
     }
 
 
+
+
     public void initialize() throws IOException {
         initializeTopBar();
         //a list of Paper names for the paper choicebox.
@@ -143,42 +148,56 @@ public class PrimaryController {
         Task task = new Task<Void>() {
             @Override public Void call() throws IOException {
 
+                ArrayList<String> exclude = new ArrayList<>();
+                exclude.add("paper_3"); //read from json
 
-                    java.nio.file.Files.walk(
+                markschemeString = "_markscheme"; //read from json.
+
+                java.nio.file.Files.walk(
                             Paths.get("Papers/"))
                             .filter(java.nio.file.Files::isRegularFile)
                             .filter(name -> !name.toString().contains("paper_3")) //not paper 3
+                            .filter(name -> name.toString().contains("pdf")) //not paper 3
                             .filter(name -> !name.toString().contains("png")) //not paper 3
-                            .forEach(file -> PaperToConvert.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding Papers folder so it looks nice in choicebox.
+                            .forEach(file -> PaperToConvert.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding /Papers/ folder so it looks nicer in choicebox.
 
-
-                    int complete = 0;
-                    for (String file: PaperToConvert) {
-
-                        updateProgress(complete, PaperToConvert.size());
-                        System.out.println("Iteration " + complete);
-
-                        File f = new File(System.getProperty("user.dir") + "/Papers/" + file + ".png");
-                        //System.out.println(f + " " + f.exists());
-                        if (!f.exists()) {
-                            pdftoimage(System.getProperty("user.dir") + "/Papers/" + file);
+                for (String s: PaperToConvert) {
+                    for (String e: exclude) {
+                        if(s.contains(e)){
+                            PaperToConvert.remove(s);
                         }
-                        complete++;
                     }
+                }
 
-                    java.nio.file.Files.walk(
-                            Paths.get("Papers/"))
-                            .filter(java.nio.file.Files::isRegularFile)
-                            .filter(name -> !name.toString().contains("markscheme")) //not list markschemes
-                            .filter(name -> name.toString().endsWith("png")) //ignore the pdfs because we will work with jpegs.
-                            .forEach(file -> PaperNames.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding Papers folder so it looks nice in choicebox.
+                int complete = 0;
+                for (String file: PaperToConvert) {
+
+                    updateProgress(complete, PaperToConvert.size());
+                   // System.out.println("Iteration " + complete);
+
+                    File f = new File(System.getProperty("user.dir") + "/Papers/" + file + ".png");
+                    //System.out.println(f + " " + f.exists());
+                    if (!f.exists()) {
+                        pdftoimage(System.getProperty("user.dir") + "/Papers/" + file);
+                    }
+                    complete++;
+                }
+
+                java.nio.file.Files.walk(
+                        Paths.get("Papers/"))
+                        .filter(java.nio.file.Files::isRegularFile)
+                        .filter(name -> !name.toString().contains(markschemeString)) //not list markschemes
+                        .filter(name -> name.toString().endsWith("png")) //ignore the pdfs because we will work with jpegs.
+                        .forEach(file -> PaperNames.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding Papers folder so it looks nice in choicebox.
+
                 loadingPane.setVisible(false);
-                System.out.println(PaperNames);
+                //System.out.println(PaperNames);
                     if(PaperNames.size() == 0){
                         loadingPane.setVisible(true);
                         Label l = (Label) loadingPane.getChildren().get(0);
                         l.setText("Papers folder is empty. Add Papers using the file structure: \n\n" +
-                                "Papers/<year>/<month>/*.pdf \n\n" +
+                                "E.g for IB CS -  Papers/<year>/<month>/*.pdf \n\n" +
+                                "You can check the structure in the topics.json file to make sure.\n\n" +
                                 "See help/guide file for more details.");
                     }
                     FXCollections.reverse(PaperNames); //newest Papers at top of list.
@@ -236,7 +255,7 @@ public class PrimaryController {
         mpaperChoiceBox.setOnAction(event -> {
             try {
                 File paperFile = new File( System.getProperty("user.dir") + "/Papers/" + mpaperChoiceBox.getValue().toString());
-                File markschemeFile = new File( System.getProperty("user.dir") + "/Papers/" +mpaperChoiceBox.getValue().toString().substring(0,mpaperChoiceBox.getValue().toString().length()-8)+"_markscheme.pdf.png");
+                File markschemeFile = new File( System.getProperty("user.dir") + "/Papers/" +mpaperChoiceBox.getValue().toString().substring(0,mpaperChoiceBox.getValue().toString().length()-8)+markschemeString+".pdf.png");
                 
                 setImage(paperFile.toURI().toString(), markschemeFile.toURI().toString());
 
@@ -341,7 +360,7 @@ public class PrimaryController {
                 i++;
             }
         }catch(Exception e){
-            System.out.println("no last selected list");
+            //System.out.println("no last selected list");
             for (Topic t : topics) {
                 for (Question q : t.getQuestions()) {
                     if (q.toString().equals(mpaperSelectListView.getItems().get(0).toString())) {
