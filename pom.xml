@@ -12,7 +12,6 @@
     <repositories>
 
     </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
@@ -23,11 +22,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.11</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bitbucket.cowwoc</groupId>
-            <artifactId>diff-match-patch</artifactId>
-            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

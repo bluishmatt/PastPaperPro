@@ -3,9 +3,7 @@ package co.uk.mattelliot;
 import java.awt.*;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.image.BufferedImage;
-import java.awt.print.Paper;
 import java.io.*;
-import java.lang.reflect.Array;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
@@ -15,7 +13,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
@@ -25,7 +22,6 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -50,6 +46,7 @@ import javafx.stage.StageStyle;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.ImageType;
 import org.apache.pdfbox.rendering.PDFRenderer;
+
 import javax.imageio.ImageIO;
 
 
@@ -76,11 +73,12 @@ public class PrimaryController {
     private static ObservableList<Question> listViewTopicQ = FXCollections.observableArrayList();
     private static ObservableList<Question> listViewPaperQ = FXCollections.observableArrayList();
     private static ObservableList<String> questionsTopicsList = FXCollections.observableArrayList(); //to show topics this question is in.
+    public ObservableList<String> MarkschemeNames = FXCollections.observableArrayList();
+
 
     private ListView lastSelectedList = mpaperSelectListView;
     private double xOffset = 0;
     private double yOffset = 0;
-    public String markschemeString = "";
 
     public void pdftoimage(String pdf){
         ArrayList<BufferedImage> images = new ArrayList<>();
@@ -127,9 +125,6 @@ public class PrimaryController {
         imageViewMS.setFitWidth(markschemeImage.getWidth());
     }
 
-
-
-
     public void initialize() throws IOException {
         initializeTopBar();
         //a list of Paper names for the paper choicebox.
@@ -148,50 +143,64 @@ public class PrimaryController {
         Task task = new Task<Void>() {
             @Override public Void call() throws IOException {
 
+                //Strings to exclude. E.g Paper 3 from IBDP CS is a case study. The paper isn't useful for revision.
                 ArrayList<String> exclude = new ArrayList<>();
                 exclude.add("paper_3"); //read from json
 
-                markschemeString = "_markscheme"; //read from json.
+                //String names of possible markschemes.
+                ArrayList<String> markschemeStrings = new ArrayList<>();
+                markschemeStrings.add("markscheme"); //IB name
+                markschemeStrings.add("ms"); //ALevel name
 
                 java.nio.file.Files.walk(
                             Paths.get("Papers/"))
                             .filter(java.nio.file.Files::isRegularFile)
-                            .filter(name -> !name.toString().contains("paper_3")) //not paper 3
-                            .filter(name -> name.toString().contains("pdf")) //not paper 3
-                            .filter(name -> !name.toString().contains("png")) //not paper 3
+                            .filter(name -> name.toString().contains("pdf")) //are pdf
+                            .filter(name -> !name.toString().contains("png")) //not png
                             .forEach(file -> PaperToConvert.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding /Papers/ folder so it looks nicer in choicebox.
 
-                for (String s: PaperToConvert) {
+                ArrayList<String> tempArrayList = new ArrayList<>();
+                for (String p: PaperToConvert) {
                     for (String e: exclude) {
-                        if(s.contains(e)){
-                            PaperToConvert.remove(s);
+                        if(p.contains(e)) {
+                            tempArrayList.add(p);
                         }
                     }
                 }
+                PaperToConvert.removeAll(tempArrayList);
 
                 int complete = 0;
                 for (String file: PaperToConvert) {
-
                     updateProgress(complete, PaperToConvert.size());
-                   // System.out.println("Iteration " + complete);
-
                     File f = new File(System.getProperty("user.dir") + "/Papers/" + file + ".png");
-                    //System.out.println(f + " " + f.exists());
                     if (!f.exists()) {
                         pdftoimage(System.getProperty("user.dir") + "/Papers/" + file);
                     }
                     complete++;
                 }
 
+                tempArrayList.clear();
                 java.nio.file.Files.walk(
                         Paths.get("Papers/"))
                         .filter(java.nio.file.Files::isRegularFile)
-                        .filter(name -> !name.toString().contains(markschemeString)) //not list markschemes
                         .filter(name -> name.toString().endsWith("png")) //ignore the pdfs because we will work with jpegs.
-                        .forEach(file -> PaperNames.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding Papers folder so it looks nice in choicebox.
+                        .forEach(file -> tempArrayList.add(String.valueOf(file).substring(7))); //adds the found filename to list, without proceeding Papers folder so it looks nice in choicebox.
+
+                for (String s: tempArrayList) {
+                    int moved = 0;
+                    for (String ms: markschemeStrings) {
+                        if(s.contains(ms)){
+                            MarkschemeNames.add(s);
+                            moved++;
+                        }
+                    }
+                    if (moved <1){
+                        PaperNames.add(s);
+                    }
+
+                }
 
                 loadingPane.setVisible(false);
-                //System.out.println(PaperNames);
                     if(PaperNames.size() == 0){
                         loadingPane.setVisible(true);
                         Label l = (Label) loadingPane.getChildren().get(0);
@@ -201,6 +210,7 @@ public class PrimaryController {
                                 "See help/guide file for more details.");
                     }
                     FXCollections.reverse(PaperNames); //newest Papers at top of list.
+                    FXCollections.reverse(MarkschemeNames); //newest MS at top of list too. These should align.
 
                 return null;
             }
@@ -209,8 +219,6 @@ public class PrimaryController {
         pb.progressProperty().bind(task.progressProperty());
         pb.setPrefWidth(200);
         new Thread(task).start();
-
-
 
         //open and read Json for any previously saved data.
         readJson();
@@ -255,9 +263,10 @@ public class PrimaryController {
         mpaperChoiceBox.setOnAction(event -> {
             try {
                 File paperFile = new File( System.getProperty("user.dir") + "/Papers/" + mpaperChoiceBox.getValue().toString());
-                File markschemeFile = new File( System.getProperty("user.dir") + "/Papers/" +mpaperChoiceBox.getValue().toString().substring(0,mpaperChoiceBox.getValue().toString().length()-8)+markschemeString+".pdf.png");
-                
-                setImage(paperFile.toURI().toString(), markschemeFile.toURI().toString());
+                int msIndex = mpaperChoiceBox.getSelectionModel().getSelectedIndex();
+                File markschemeFile = new File(System.getProperty("user.dir") + "/Papers/" + MarkschemeNames.get(msIndex));
+
+               setImage(paperFile.toURI().toString(), markschemeFile.toURI().toString());
 
                 setPaperQuestionsList(mpaperChoiceBox.getValue().toString());
 
@@ -791,7 +800,7 @@ public class PrimaryController {
         contents.getChildren().add(name);
         contents.getChildren().add(new Text("as a means to organize past Papers and help improve student learning. \n\r"));
         contents.getChildren().add(new Text("If this program was useful please send me a line, I would love to hear how/where this is being used. \n\r"));
-        contents.getChildren().add(new Text("If it is super useful, buy me a drink to show your appreciation: "));
+        contents.getChildren().add(new Text("If it is super useful, you can also show your appreciation via paypal: "));
         contents.getChildren().add(new Hyperlink("Paypal (to be added) bluishmatt@gmail.com"));
         contents.getChildren().add(new Text("\n\rPlease report any issues or feature requests on github."));
 
