@@ -67,8 +67,6 @@ If you want to correct a mistake, click the modify question button. From here yo
 Project is: _in progress_.
 
 ## Room for Improvement
-
-Room for improvement:
 - 
 
 To do:
