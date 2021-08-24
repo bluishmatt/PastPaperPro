@@ -69,7 +69,7 @@ Project is: _in progress_.
 ## Room for Improvement
 
 Room for improvement:
-- Loading bar when loading the program for the first time. (When converting files, you see nothing. just wait...).
+- 
 
 To do:
 - Paper creator - Would be great to have the option of creating a new paper with a mixture of past paper questions. Could select/weight topics.
