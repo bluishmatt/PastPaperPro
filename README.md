@@ -31,7 +31,8 @@ If it is super useful, you can also show your appreciation via Paypal at:
 </a>
 
 or buymeacoffee.com:
-<a href="https://www.buymeacoffee.com/MattElliot"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=MattElliot&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+
+<a href="https://www.buymeacoffee.com/MattElliot"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=MattElliot&button_colour=40DCA5&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Technologies Used
 - Java 8
