@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Appreciation](#appreciation)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
@@ -20,6 +21,17 @@ Past Paper Pro will hopefully make it easier for teachers of any subject to mana
 IB Past papers are copyrighted and will not be shared here. This program relies on you having your own copies of past papers and placing them in the correct folder. See Setup and Usage. You can share your topics.json data which contains all the information about the IB Past papers that have been processed.
 
 I will keep my Computer Science Json file here for anyone to use. If you would like to add a json file for another course, email it me and I'll add it.
+
+## Appreciation
+If this program was useful please send me a line (bluishmatt@gmail.com), I would love to hear how/where this is being used.
+If it is super useful, you can also show your appreciation via Paypal at:
+
+<a href="https://paypal.me/MattElliot86">
+  <img alt="Support via PayPal" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg"/>
+</a>
+
+or buymeacoffee.com:
+<a href="https://www.buymeacoffee.com/MattElliot"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=MattElliot&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
 
 ## Technologies Used
 - Java 8
