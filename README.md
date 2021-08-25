@@ -24,15 +24,15 @@ I will keep my Computer Science Json file here for anyone to use. If you would l
 
 ## Appreciation
 If this program was useful please send me a line (bluishmatt@gmail.com), I would love to hear how/where this is being used.
-If it is super useful, you can also show your appreciation via Paypal at:
+If it is super useful, you can also show your appreciation via buymeacoffee.com (no registration required):
+
+<a href="https://www.buymeacoffee.com/MattElliot"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=MattElliot&button_colour=40DCA5&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
+
+or via Paypal at:
 
 <a href="https://paypal.me/MattElliot86">
   <img alt="Support via PayPal" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg"/>
 </a>
-
-or buymeacoffee.com:
-
-<a href="https://www.buymeacoffee.com/MattElliot"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=MattElliot&button_colour=40DCA5&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Technologies Used
 - Java 8
