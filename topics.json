@@ -11,16 +11,64 @@
         "scrollLocationMS": 0.2718867978329058
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.17216179885127705,
+        "scrollLocationMS": 0.3048026396187219
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.25099548059380594,
+        "scrollLocationMS": 0.35157894736842105
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "02",
         "scrollLocation": 0.39449871685201027,
         "scrollLocationMS": 0.28614399771884835
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.17762781965976568,
+        "scrollLocationMS": 0.3219112794818527
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.42771599657827203,
+        "scrollLocationMS": 0.38801625730084516
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05a",
+        "scrollLocation": 0.3208532366367142,
+        "scrollLocationMS": 0.3139933750460071
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.1989938290283053,
+        "scrollLocationMS": 0.26829410378270496
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "07c-d",
         "scrollLocation": 0.5930085673657362,
         "scrollLocationMS": 0.7117943599979518
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08a-c",
+        "scrollLocation": 0.7448436460412502,
+        "scrollLocationMS": 0.5671733456164593
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.38964900951088643,
+        "scrollLocationMS": 0.4462365494574779
       },
       {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -35,10 +83,40 @@
         "scrollLocationMS": 0.763964135221616
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.6300736493234492,
+        "scrollLocationMS": 0.5247708664304039
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11a-b",
+        "scrollLocation": 0.46998607084188193,
+        "scrollLocationMS": 0.48844806627346743
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11f-g",
+        "scrollLocation": 0.5314063112339704,
+        "scrollLocationMS": 0.5831056683625263
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12d",
+        "scrollLocation": 0.7354584989064784,
+        "scrollLocationMS": 0.744739093242086
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "13a-b",
         "scrollLocation": 0.7994031936127772,
         "scrollLocationMS": 0.8022546335899683
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "14c-d",
+        "scrollLocation": 0.5028597591917493,
+        "scrollLocationMS": 0.5677080202902149
       }
     ]
   },
@@ -47,6 +125,18 @@
     "topic": "Systems in organizations",
     "subtopic": "User focus",
     "questions": [
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01b",
+        "scrollLocation": 0.39349871685201027,
+        "scrollLocationMS": 0.3102497124684327
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.1874041852958405,
+        "scrollLocationMS": 0.3267994622998901
+      },
       {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "04",
@@ -58,6 +148,24 @@
         "questionNumber": "07a",
         "scrollLocation": 0.5644941675938512,
         "scrollLocationMS": 0.6775770802716902
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09c",
+        "scrollLocation": 0.754958803215234,
+        "scrollLocationMS": 0.814721659754634
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.4194755072873957,
+        "scrollLocationMS": 0.4093580535570118
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 1.0
       }
     ]
   },
@@ -67,10 +175,46 @@
     "subtopic": "System backup",
     "questions": [
       {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.2578389365390583,
+        "scrollLocationMS": 0.3561412513319226
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.3980134968158913,
+        "scrollLocationMS": 0.2679914895483755
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.1971805509319153,
+        "scrollLocationMS": 0.35612855920811437
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "09c-e",
         "scrollLocation": 0.6051230871590185,
         "scrollLocationMS": 0.6469283654912368
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10b",
+        "scrollLocation": 0.5988023952095818,
+        "scrollLocationMS": 0.4694787639910061
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11e",
+        "scrollLocation": 0.5216299455978957,
+        "scrollLocationMS": 0.5688484684765838
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "14a-b",
+        "scrollLocation": 0.478703989099281,
+        "scrollLocationMS": 0.5303066325894253
       },
       {
         "paper": "2015\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -83,7 +227,7 @@
   {
     "number": "1.1",
     "topic": "Systems in organizations",
-    "subtopic": "Software development",
+    "subtopic": "Software deployment",
     "questions": [
       {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
@@ -92,10 +236,28 @@
         "scrollLocationMS": 0.2704783663585878
       },
       {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02b",
+        "scrollLocation": 0.2661055890746952,
+        "scrollLocationMS": 0.22696928802191962
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.27152584842956307,
+        "scrollLocationMS": 0.3652658592589257
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "06",
         "scrollLocation": 0.44682064442543573,
         "scrollLocationMS": 0.4822562666874035
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 1.0
       }
     ]
   },
@@ -105,10 +267,64 @@
     "subtopic": "Components of a computer system",
     "questions": [
       {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.24778761061946908,
+        "scrollLocationMS": 0.2021052631578948
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.32594827603561655,
+        "scrollLocationMS": 0.2699464006723031
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.3992015968063872,
+        "scrollLocationMS": 0.3195816978483222
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.18923351397135355,
+        "scrollLocationMS": 0.23522999114552848
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "05",
         "scrollLocation": 0.2785171021169613,
         "scrollLocationMS": 0.5727848332638746
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.2623324779013402,
+        "scrollLocationMS": 0.5717789736981747
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08b",
+        "scrollLocation": 0.5645851154833197,
+        "scrollLocationMS": 0.6402135331506984
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c",
+        "scrollLocation": 0.6487827333195434,
+        "scrollLocationMS": 0.7084144220103883
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08d",
+        "scrollLocation": 0.6772971330914284,
+        "scrollLocationMS": 0.7332997163567607
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14e",
+        "scrollLocation": 0.8557723381076676,
+        "scrollLocationMS": 0.8503028505201614
       }
     ]
   },
@@ -118,10 +334,40 @@
     "subtopic": "System design and analysis",
     "questions": [
       {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.20530367835757057,
+        "scrollLocationMS": 0.2223166686518464
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "03",
         "scrollLocation": 0.4059044767607642,
         "scrollLocationMS": 0.2946983176504139
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.2729490450199476,
+        "scrollLocationMS": 0.24561730666993825
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.33971665763975456,
+        "scrollLocationMS": 0.2928054444894318
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.34994110670081663,
+        "scrollLocationMS": 0.307062644375374
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05c",
+        "scrollLocation": 0.3435959938530023,
+        "scrollLocationMS": 0.3419654030180353
       },
       {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -130,10 +376,46 @@
         "scrollLocationMS": 0.7117943599979518
       },
       {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.2902214133879732,
+        "scrollLocationMS": 0.24262790246774307
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08a",
+        "scrollLocation": 0.5645851154833197,
+        "scrollLocationMS": 0.6402135331506984
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08d",
+        "scrollLocation": 0.781342077749263,
+        "scrollLocationMS": 0.6442499616152321
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "09a-b",
         "scrollLocation": 0.5648702594810414,
         "scrollLocationMS": 0.5988023952095778
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10c-e",
+        "scrollLocation": 0.5017430834055469,
+        "scrollLocationMS": 0.602615003116907
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.6300736493234492,
+        "scrollLocationMS": 0.5247708664304039
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14e",
+        "scrollLocation": 0.8557723381076676,
+        "scrollLocationMS": 0.8503028505201614
       }
     ]
   },
@@ -149,16 +431,46 @@
         "scrollLocationMS": 0.41239316239316237
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.20530367835757057,
+        "scrollLocationMS": 0.42806639884787484
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.15167362252547484,
+        "scrollLocationMS": 0.13513939124924768
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "04",
         "scrollLocation": 0.4173102366695181,
         "scrollLocationMS": 0.35172711719418404
       },
       {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.20878624524350317,
+        "scrollLocationMS": 0.2665958308946019
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "05",
         "scrollLocation": 0.4304961505560316,
         "scrollLocationMS": 0.4258236773206825
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08a-b",
+        "scrollLocation": 0.6294954442189395,
+        "scrollLocationMS": 0.6710864804908296
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "14e",
+        "scrollLocation": 0.5125546551141907,
+        "scrollLocationMS": 0.587454242132247
       }
     ]
   },
@@ -174,10 +486,76 @@
         "scrollLocationMS": 0.38101574628520724
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.21100655831194753,
+        "scrollLocationMS": 0.4451750387110058
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.22811519817507842,
+        "scrollLocationMS": 0.24284703648760353
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.41326870069384947,
+        "scrollLocationMS": 0.3255905770875825
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.2852127603200678,
+        "scrollLocationMS": 0.3743904671859288
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.43912175648702595,
+        "scrollLocationMS": 0.40979088985392065
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "05",
         "scrollLocation": 0.42871599657827203,
         "scrollLocationMS": 0.3745386370116921
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.2020687337499527,
+        "scrollLocationMS": 0.3756812904802639
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.21184509938602752,
+        "scrollLocationMS": 0.38545765611633864
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.39393475206315154,
+        "scrollLocationMS": 0.38628515174159456
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.36031991260266216,
+        "scrollLocationMS": 0.3920591898908963
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.4011040868629395,
+        "scrollLocationMS": 0.3930335596876074
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08a-b",
+        "scrollLocation": 0.4599347449222927,
+        "scrollLocationMS": 0.4849335459861794
       },
       {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -190,6 +568,12 @@
         "questionNumber": "08e",
         "scrollLocation": 0.8404110546414205,
         "scrollLocationMS": 0.8550810466978117
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "15a",
+        "scrollLocation": 0.5210682401889389,
+        "scrollLocationMS": 0.6139013479206701
       }
     ]
   },
@@ -197,7 +581,14 @@
     "number": "2.1",
     "topic": "Computer organization",
     "subtopic": "Secondary memory",
-    "questions": []
+    "questions": [
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "15b",
+        "scrollLocation": 0.5353661749316977,
+        "scrollLocationMS": 0.6219329038564179
+      }
+    ]
   },
   {
     "number": "2.1",
@@ -211,16 +602,94 @@
         "scrollLocationMS": 0.3649843170801254
       },
       {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.3843265849253869,
+        "scrollLocationMS": 0.24822881709109226
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01a",
+        "scrollLocation": 0.3842716061807291,
+        "scrollLocationMS": 0.29551287036316953
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.3335249594035742,
+        "scrollLocationMS": 0.2789997225998769
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02a",
+        "scrollLocation": 0.25926213312944285,
+        "scrollLocationMS": 0.2145372755899072
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.2452238380382093,
+        "scrollLocationMS": 0.25995567635073447
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.2920562162653202,
+        "scrollLocationMS": 0.3812339231311811
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "06",
         "scrollLocation": 0.44012175648702595,
         "scrollLocationMS": 0.38879583689763464
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.21673328220406493,
+        "scrollLocationMS": 0.3927899303433947
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08a-b",
+        "scrollLocation": 0.4599347449222927,
+        "scrollLocationMS": 0.4849335459861794
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c",
+        "scrollLocation": 0.6487827333195434,
+        "scrollLocationMS": 0.7084144220103883
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "08d",
         "scrollLocation": 0.8175995348239125,
         "scrollLocationMS": 0.8336952468688982
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.21610246889143614,
+        "scrollLocationMS": 0.32133088735841087
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09b",
+        "scrollLocation": 0.7470772740233842,
+        "scrollLocationMS": 0.8010347478641292
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11a-d",
+        "scrollLocation": 0.47763630023555925,
+        "scrollLocationMS": 0.5289283087959447
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "15c",
+        "scrollLocation": 0.5397248046111148,
+        "scrollLocationMS": 0.6259724438241018
       }
     ]
   },
@@ -236,6 +705,24 @@
         "scrollLocationMS": 0.3922947755283082
       },
       {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.23381807812945538,
+        "scrollLocationMS": 0.2531122204054821
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.4252922725976607,
+        "scrollLocationMS": 0.40501414752911735
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.35674382778925195,
+        "scrollLocationMS": 0.3152605343097912
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "07",
         "scrollLocation": 0.45152751639577987,
@@ -246,6 +733,24 @@
         "questionNumber": "08a-b",
         "scrollLocation": 0.7320563355082572,
         "scrollLocationMS": 0.8058918792451714
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c",
+        "scrollLocation": 0.4599347449222927,
+        "scrollLocationMS": 0.4849335459861794
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.24117419629425196,
+        "scrollLocationMS": 0.4245631186606377
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.3798726438748117,
+        "scrollLocationMS": 0.4405336695031009
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -279,10 +784,70 @@
         "scrollLocationMS": 0.45944192201677214
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.23952095808383234,
+        "scrollLocationMS": 0.5307182380266604
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.3003228688009571,
+        "scrollLocationMS": 0.2922373532899852
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "05",
         "scrollLocation": 0.2757817697937457,
         "scrollLocationMS": 0.47790134017678887
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.21856261087957798,
+        "scrollLocationMS": 0.27800159080335596
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.25092671799258626,
+        "scrollLocationMS": 0.32154677985800584
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.4628362322973086,
+        "scrollLocationMS": 0.42727731350485804
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.4733390362132877,
+        "scrollLocationMS": 0.43467618420029264
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.2381153421517276,
+        "scrollLocationMS": 0.2922587906892985
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.3681495876980051,
+        "scrollLocationMS": 0.35537078998890936
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.22650964784013974,
+        "scrollLocationMS": 0.40501038738848816
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11c-d",
+        "scrollLocation": 0.5110468065133962,
+        "scrollLocationMS": 0.6253171851785169
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -322,10 +887,76 @@
         "scrollLocationMS": 0.4016411621202037
       },
       {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05b",
+        "scrollLocation": 0.334540148527219,
+        "scrollLocationMS": 0.3233173843700165
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.3125865841010773,
+        "scrollLocationMS": 0.3880773790764334
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.45623039635015683,
+        "scrollLocationMS": 0.6128397093696889
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07a-c",
+        "scrollLocation": 0.5588822355289427,
+        "scrollLocationMS": 0.48444677289303667
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "08",
         "scrollLocation": 0.45723039635015683,
         "scrollLocationMS": 0.4087559167379542
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c-d",
+        "scrollLocation": 0.6273167949814669,
+        "scrollLocationMS": 0.6402135331506984
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.7916072616671418,
+        "scrollLocationMS": 0.6562698778267656
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11d-f",
+        "scrollLocation": 0.8326204733390394,
+        "scrollLocationMS": 0.6542520745128202
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.4343844648824098,
+        "scrollLocationMS": 0.4483514952450648
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12a-b",
+        "scrollLocation": 0.6193936019586432,
+        "scrollLocationMS": 0.6344315879519195
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12a-c",
+        "scrollLocation": 0.6936200259579351,
+        "scrollLocationMS": 0.6689722595625066
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13a",
+        "scrollLocation": 0.890504704875962,
+        "scrollLocationMS": 0.8990554229886163
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -347,6 +978,36 @@
     "subtopic": "Data transmission",
     "questions": [
       {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.2623324779013402,
+        "scrollLocationMS": 0.34418685233511315
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.3504394497982547,
+        "scrollLocationMS": 0.35750541855805096
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.32627349599158206,
+        "scrollLocationMS": 0.3972019870034365
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.2737382378100941,
+        "scrollLocationMS": 0.3565617408943419
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07a-c",
+        "scrollLocation": 0.5588822355289427,
+        "scrollLocationMS": 0.48444677289303667
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "08",
         "scrollLocation": 0.46587776827297933,
@@ -359,10 +1020,46 @@
         "scrollLocationMS": 0.4401217564870278
       },
       {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.7916072616671418,
+        "scrollLocationMS": 0.6562698778267656
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "10",
         "scrollLocation": 0.4800419161676647,
         "scrollLocationMS": 0.4515275163957818
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.42701145579853655,
+        "scrollLocationMS": 0.44029617730950726
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12a-c",
+        "scrollLocation": 0.6936200259579351,
+        "scrollLocationMS": 0.6689722595625066
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12d-e",
+        "scrollLocation": 0.6536108816849049,
+        "scrollLocationMS": 0.7000147074272551
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.44167600425264836,
+        "scrollLocationMS": 0.45776124716978756
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13b",
+        "scrollLocation": 0.9384088964927286,
+        "scrollLocationMS": 0.9218669428061246
       }
     ]
   },
@@ -370,7 +1067,68 @@
     "number": "3.1",
     "topic": "Networks",
     "subtopic": "Wireless networking",
-    "questions": []
+    "questions": [
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.22811519817507842,
+        "scrollLocationMS": 0.4657054065467629
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.3399604078820868,
+        "scrollLocationMS": 0.42001350682094424
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c-d",
+        "scrollLocation": 0.6273167949814669,
+        "scrollLocationMS": 0.6402135331506984
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.7916072616671418,
+        "scrollLocationMS": 0.6562698778267656
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10a-b",
+        "scrollLocation": 0.47560488361465014,
+        "scrollLocationMS": 0.5842567410086448
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10c",
+        "scrollLocation": 0.6045052751639588,
+        "scrollLocationMS": 0.5344915954709036
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11d-f",
+        "scrollLocation": 0.8326204733390394,
+        "scrollLocationMS": 0.6542520745128202
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12c",
+        "scrollLocation": 0.6438345160488301,
+        "scrollLocationMS": 0.6686488676781815
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13c",
+        "scrollLocation": 0.9476710296221714,
+        "scrollLocationMS": 0.9674899824411411
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "15d-f",
+        "scrollLocation": 0.5553262547720182,
+        "scrollLocationMS": 0.6388752097208801
+      }
+    ]
   },
   {
     "number": "4.1",
@@ -382,6 +1140,12 @@
         "questionNumber": "06",
         "scrollLocation": 0.29284288565725636,
         "scrollLocationMS": 0.5002693026645119
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09b",
+        "scrollLocation": 0.5420562162653212,
+        "scrollLocationMS": 0.6962777573303889
       },
       {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -444,6 +1208,18 @@
         "questionNumber": "10e",
         "scrollLocation": 0.8092386655261001,
         "scrollLocationMS": 0.8293571586984712
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "11a-c",
+        "scrollLocation": 0.8155118334759084,
+        "scrollLocationMS": 0.6371434346496893
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.440651539248889,
+        "scrollLocationMS": 0.3623916230299251
       }
     ]
   },
@@ -459,10 +1235,22 @@
         "scrollLocationMS": 0.3466314124996755
       },
       {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.5536070715711419,
+        "scrollLocationMS": 0.48564409642253875
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "07",
         "scrollLocation": 0.2531197152430111,
         "scrollLocationMS": 0.4159018051952017
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.1989938290283053,
+        "scrollLocationMS": 0.26829410378270496
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -502,10 +1290,28 @@
         "scrollLocationMS": 0.39023884540050513
       },
       {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.4619332763045338,
+        "scrollLocationMS": 0.42534419882040314
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "06",
         "scrollLocation": 0.3741204798619382,
         "scrollLocationMS": 0.6070021129901363
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.1861623491309572,
+        "scrollLocationMS": 0.2648723758100788
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.3706871970345024,
+        "scrollLocationMS": 0.5854658855886794
       },
       {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -514,16 +1320,94 @@
         "scrollLocationMS": 0.5170611158635108
       },
       {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.31632626724032575,
+        "scrollLocationMS": 0.35213903021025716
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.36412636168875945,
+        "scrollLocationMS": 0.38547744653007915
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.562541583499666,
+        "scrollLocationMS": 0.5174047509376853
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07d",
+        "scrollLocation": 0.6009810444470546,
+        "scrollLocationMS": 0.577766626691933
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.3706871970345024,
+        "scrollLocationMS": 0.36340519683959427
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "09",
         "scrollLocation": 0.9088456140939447,
         "scrollLocationMS": 0.9363470860476831
       },
       {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.3468038638273392,
+        "scrollLocationMS": 0.42913811474794733
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.45623039635015683,
+        "scrollLocationMS": 0.37024865278484664
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09a",
+        "scrollLocation": 0.7286230526808215,
+        "scrollLocationMS": 0.7644063342897263
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09c-d",
+        "scrollLocation": 0.5488996722105736,
+        "scrollLocationMS": 0.7366817977344289
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "10",
         "scrollLocation": 0.994154548046764,
         "scrollLocationMS": 0.8611867174741374
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.3144969385648127,
+        "scrollLocationMS": 0.44900403275082457
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.6728232536191854,
+        "scrollLocationMS": 0.861001922054552
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9116528847067762,
+        "scrollLocationMS": 0.8833980390866641
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10a",
+        "scrollLocation": 0.5645851154833197,
+        "scrollLocationMS": 0.431839756292118
       },
       {
         "paper": "2014\\Nov\\Computer_science_paper_1__SL.pdf.png",
@@ -538,10 +1422,34 @@
         "scrollLocationMS": 0.8678832810569277
       },
       {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.6752897491994532,
+        "scrollLocationMS": 0.6937517446310417
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9100995022093992,
+        "scrollLocationMS": 0.7432170018011011
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9065587830097517,
+        "scrollLocationMS": 0.9286109113838151
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "12c-e",
         "scrollLocation": 0.730968634160253,
         "scrollLocationMS": 0.5712879954376991
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.770927269317802,
+        "scrollLocationMS": 0.7855579067429104
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -554,6 +1462,12 @@
         "questionNumber": "14d-e",
         "scrollLocation": 0.9691440107646562,
         "scrollLocationMS": 0.8842002161091412
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.6206242302496353,
+        "scrollLocationMS": 0.7869837545360112
       },
       {
         "paper": "2015\\May\\Computer_science_paper_1__SL.pdf.png",
@@ -573,7 +1487,62 @@
     "number": "4.3",
     "topic": "Intro to programming",
     "subtopic": "Nature of programming languages",
-    "questions": []
+    "questions": [
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "01",
+        "scrollLocation": 0.17456896551724133,
+        "scrollLocationMS": 0.18390407155613583
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.17945714833527873,
+        "scrollLocationMS": 0.20956703135083216
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.1989938290283053,
+        "scrollLocationMS": 0.26829410378270496
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.41006575536267426,
+        "scrollLocationMS": 0.39617014366251485
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09a",
+        "scrollLocation": 0.7299686341602531,
+        "scrollLocationMS": 0.7852381313322743
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09a",
+        "scrollLocation": 0.5352127603200688,
+        "scrollLocationMS": 0.6714137324663643
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09d",
+        "scrollLocation": 0.7685432123614607,
+        "scrollLocationMS": 0.8455172115082696
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.36049077571784394,
+        "scrollLocationMS": 0.4382627226749504
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.7729884179564874,
+        "scrollLocationMS": 0.8180618355126467
+      }
+    ]
   },
   {
     "number": "4.3",
@@ -581,10 +1550,64 @@
     "subtopic": "Use of programming languages",
     "questions": [
       {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.18589090225173668,
+        "scrollLocationMS": 0.21854401058201045
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.31632626724032575,
+        "scrollLocationMS": 0.35213903021025716
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09b-d",
+        "scrollLocation": 0.7970576121333457,
+        "scrollLocationMS": 0.7737383196696159
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "09e-f",
+        "scrollLocation": 0.7834732029871191,
+        "scrollLocationMS": 0.8660475793440268
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9122781514468719,
+        "scrollLocationMS": 0.9499861037418832
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9116528847067762,
+        "scrollLocationMS": 0.8833980390866641
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.7729884179564874,
+        "scrollLocationMS": 0.8180618355126467
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.770927269317802,
+        "scrollLocationMS": 0.7855579067429104
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__SL.pdf.png",
         "questionNumber": "14d-e",
         "scrollLocation": 0.9691440107646562,
         "scrollLocationMS": 0.8842002161091412
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.6206242302496353,
+        "scrollLocationMS": 0.7869837545360112
       }
     ]
   },
@@ -594,16 +1617,88 @@
     "subtopic": "Recursion",
     "questions": [
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.2345739005506946,
+        "scrollLocationMS": 0.41310760279772607
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.18589090225173668,
+        "scrollLocationMS": 0.21854401058201045
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.33787670654659413,
+        "scrollLocationMS": 0.23363919154504714
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.2946646343198267,
+        "scrollLocationMS": 0.3402506492744124
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "10d",
         "scrollLocation": 0.7565820739473449,
         "scrollLocationMS": 0.8601090948352821
       },
       {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.5928245399465965,
+        "scrollLocationMS": 0.6715172693696064
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.6714951838776453,
+        "scrollLocationMS": 0.5223808060603765
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "14c-e",
         "scrollLocation": 0.7364493318488907,
         "scrollLocationMS": 0.8166931443235983
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "15",
+        "scrollLocation": 0.937038377457539,
+        "scrollLocationMS": 0.874254946328544
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9120829973313986,
+        "scrollLocationMS": 0.8668130990979686
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9698082825944756,
+        "scrollLocationMS": 0.8586800066661068
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9325774232264885,
+        "scrollLocationMS": 0.9283885414480857
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "19",
+        "scrollLocation": 0.988594240091246,
+        "scrollLocationMS": 0.986339249973859
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "19",
+        "scrollLocation": 0.980102276090137,
+        "scrollLocationMS": 0.983321514447667
       }
     ]
   },
@@ -625,10 +1720,46 @@
         "scrollLocationMS": 0.6703587254441923
       },
       {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "06",
+        "scrollLocation": 0.30489867698030054,
+        "scrollLocationMS": 0.275869988871892
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.34215386651237684,
+        "scrollLocationMS": 0.23608328295406583
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "11",
         "scrollLocation": 0.5735178799525518,
         "scrollLocationMS": 0.529959404282742
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.8358203871692924,
+        "scrollLocationMS": 0.8164560080280802
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.5928245399465965,
+        "scrollLocationMS": 0.6715172693696064
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.709976871653518,
+        "scrollLocationMS": 0.905784518786423
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12a-b",
+        "scrollLocation": 0.833882191298122,
+        "scrollLocationMS": 0.7457982329837365
       },
       {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
@@ -637,10 +1768,46 @@
         "scrollLocationMS": 0.9576754008610182
       },
       {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.7081165522217138,
+        "scrollLocationMS": 0.8181627539107278
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.710555858054418,
+        "scrollLocationMS": 0.7777444067820917
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.6714951838776453,
+        "scrollLocationMS": 0.5223808060603765
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.925007128599943,
+        "scrollLocationMS": 0.8595390054071436
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "13d",
         "scrollLocation": 0.5425514134000722,
         "scrollLocationMS": 0.6724917511914956
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.8246134571419583,
+        "scrollLocationMS": 0.9060592057555729
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.7337863908068549,
+        "scrollLocationMS": 0.7058352695076254
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
@@ -655,6 +1822,18 @@
         "scrollLocationMS": 0.8166931443235983
       },
       {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "15",
+        "scrollLocation": 0.8022209502593791,
+        "scrollLocationMS": 0.8120889276049632
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.880615688051749,
+        "scrollLocationMS": 0.6794391691843715
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_2__HL.pdf.png",
         "questionNumber": "17",
         "scrollLocation": 0.9747302919723329,
@@ -667,10 +1846,46 @@
         "scrollLocationMS": 0.9482581307881794
       },
       {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9423375471279659,
+        "scrollLocationMS": 0.8132010419031587
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9214494711855314,
+        "scrollLocationMS": 0.9361544251194761
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9292395288056166,
+        "scrollLocationMS": 0.9503925006167444
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_2__HL.pdf.png",
         "questionNumber": "18",
         "scrollLocation": 0.8743836055770058,
         "scrollLocationMS": 0.9345620507569622
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "19",
+        "scrollLocation": 0.990476995318124,
+        "scrollLocationMS": 0.9547296070393162
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
       }
     ]
   },
@@ -680,10 +1895,28 @@
     "subtopic": "Linked lists",
     "questions": [
       {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.40286667131767584,
+        "scrollLocationMS": 0.29001139396336617
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "06",
         "scrollLocation": 0.2861439977188481,
         "scrollLocationMS": 0.3309523402175236
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.28896175436544974,
+        "scrollLocationMS": 0.3366488303558586
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "09",
+        "scrollLocation": 0.35070818644394225,
+        "scrollLocationMS": 0.24307672892999796
       },
       {
         "paper": "2015\\Nov\\Computer_science_paper_1__HL.pdf.png",
@@ -698,10 +1931,40 @@
         "scrollLocationMS": 0.529959404282742
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.7722740105348065,
+        "scrollLocationMS": 0.7431332657575195
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.5927673840106857,
+        "scrollLocationMS": 0.7770452025471072
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.440651539248889,
+        "scrollLocationMS": 0.3623916230299251
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.710555858054418,
+        "scrollLocationMS": 0.7777444067820917
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "14",
         "scrollLocation": 0.9363416025092703,
         "scrollLocationMS": 0.9584877863320996
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9120829973313986,
+        "scrollLocationMS": 0.8668130990979686
       },
       {
         "paper": "2014\\May\\Computer_science_paper_2__HL.pdf.png",
@@ -714,6 +1977,54 @@
         "questionNumber": "17",
         "scrollLocation": 0.9725721169902896,
         "scrollLocationMS": 0.9482581307881794
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9423375471279659,
+        "scrollLocationMS": 0.8132010419031587
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9325774232264885,
+        "scrollLocationMS": 0.9283885414480857
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9214494711855314,
+        "scrollLocationMS": 0.9361544251194761
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9292395288056166,
+        "scrollLocationMS": 0.9503925006167444
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "18",
+        "scrollLocation": 0.9728782868331393,
+        "scrollLocationMS": 0.9429096257059104
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "18",
+        "scrollLocation": 0.9354710416645786,
+        "scrollLocationMS": 0.9479243285239469
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
       }
     ]
   },
@@ -722,6 +2033,18 @@
     "topic": "Abstract data structures (HL)",
     "subtopic": "Trees",
     "questions": [
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "02",
+        "scrollLocation": 0.2599343603422022,
+        "scrollLocationMS": 0.24868945560937317
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.31551783604353706,
+        "scrollLocationMS": 0.4277721512518382
+      },
       {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "08",
@@ -735,10 +2058,46 @@
         "scrollLocationMS": 0.7667892410363855
       },
       {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.5927673840106857,
+        "scrollLocationMS": 0.7770452025471072
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.3644855834605258,
+        "scrollLocationMS": 0.26257297472923463
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.38368527930692803,
+        "scrollLocationMS": 0.27451900747577135
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12c",
+        "scrollLocation": 0.8477320426158942,
+        "scrollLocationMS": 0.8020983312000022
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.6714951838776453,
+        "scrollLocationMS": 0.5223808060603765
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "14",
         "scrollLocation": 0.9363416025092703,
         "scrollLocationMS": 0.9584877863320996
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14a-d",
+        "scrollLocation": 0.6697177074422591,
+        "scrollLocationMS": 0.7370060032919576
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
@@ -747,10 +2106,34 @@
         "scrollLocationMS": 0.9120127092753272
       },
       {
+        "paper": "2017\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9366141666247333,
+        "scrollLocationMS": 0.9149245115447943
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.880615688051749,
+        "scrollLocationMS": 0.6794391691843715
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9698082825944756,
+        "scrollLocationMS": 0.8586800066661068
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_2__HL.pdf.png",
         "questionNumber": "18",
         "scrollLocation": 0.9876605105825154,
         "scrollLocationMS": 0.9791720906014061
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "18",
+        "scrollLocation": 0.9728782868331393,
+        "scrollLocationMS": 0.9429096257059104
       }
     ]
   },
@@ -758,13 +2141,63 @@
     "number": "5.1",
     "topic": "Abstract data structures (HL)",
     "subtopic": "Applications",
-    "questions": []
+    "questions": [
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.7722740105348065,
+        "scrollLocationMS": 0.7431332657575195
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12d",
+        "scrollLocation": 0.887652202296533,
+        "scrollLocationMS": 0.829693933645904
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.710555858054418,
+        "scrollLocationMS": 0.7777444067820917
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.7337863908068549,
+        "scrollLocationMS": 0.7058352695076254
+      }
+    ]
   },
   {
     "number": "6.1",
     "topic": "Resource Mgmt (HL)",
     "subtopic": "System resources",
-    "questions": []
+    "questions": [
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "04",
+        "scrollLocation": 0.2659208082490449,
+        "scrollLocationMS": 0.18642451975947555
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "08",
+        "scrollLocation": 0.20754814895987073,
+        "scrollLocationMS": 0.2785592877005835
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c",
+        "scrollLocation": 0.6487827333195434,
+        "scrollLocationMS": 0.7084144220103883
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.773594603208993,
+        "scrollLocationMS": 0.6317723165626115
+      }
+    ]
   },
   {
     "number": "6.1",
@@ -772,10 +2205,34 @@
     "subtopic": "Role of the OS",
     "questions": [
       {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "03",
+        "scrollLocation": 0.2941516400684638,
+        "scrollLocationMS": 0.25602172983642923
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.27184546686831423,
+        "scrollLocationMS": 0.1969748476750728
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "07",
         "scrollLocation": 0.2531197152430111,
         "scrollLocationMS": 0.4159018051952017
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "07",
+        "scrollLocation": 0.31319953558056024,
+        "scrollLocationMS": 0.2851648606667638
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__SL.pdf.png",
+        "questionNumber": "08c",
+        "scrollLocation": 0.6487827333195434,
+        "scrollLocationMS": 0.7084144220103883
       },
       {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
@@ -788,6 +2245,42 @@
         "questionNumber": "09",
         "scrollLocation": 0.5930995152552038,
         "scrollLocationMS": 0.6703587254441923
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.6919079130324153,
+        "scrollLocationMS": 0.6698105234869588
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.35926250637550766,
+        "scrollLocationMS": 0.258418933886358
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.773594603208993,
+        "scrollLocationMS": 0.6317723165626115
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11d",
+        "scrollLocation": 0.5167861405549029,
+        "scrollLocationMS": 0.6446322638704008
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.7337863908068549,
+        "scrollLocationMS": 0.7058352695076254
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "16a-b",
+        "scrollLocation": 0.8573728248507605,
+        "scrollLocationMS": 0.7054916486595697
       }
     ]
   },
@@ -809,6 +2302,36 @@
         "scrollLocationMS": 0.6703587254441923
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.22037962885721885,
+        "scrollLocationMS": 0.3623916230299251
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.6919079130324153,
+        "scrollLocationMS": 0.6698105234869588
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10c-e",
+        "scrollLocation": 0.5017430834055469,
+        "scrollLocationMS": 0.602615003116907
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.773594603208993,
+        "scrollLocationMS": 0.6317723165626115
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11a-c",
+        "scrollLocation": 0.4749650208894718,
+        "scrollLocationMS": 0.5957504356900271
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "11a-d",
         "scrollLocation": 0.36598431708012513,
@@ -821,10 +2344,34 @@
         "scrollLocationMS": 0.872132201545363
       },
       {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.592696338997293,
+        "scrollLocationMS": 0.6472910278257191
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "13",
         "scrollLocation": 0.8037496435700064,
         "scrollLocationMS": 0.8729445870164444
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.8040871428169092,
+        "scrollLocationMS": 0.6983553875097221
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9105756693925424,
+        "scrollLocationMS": 0.9741707789398852
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "16c",
+        "scrollLocation": 0.8741963207161715,
+        "scrollLocationMS": 0.7303742143552469
       }
     ]
   },
@@ -833,6 +2380,12 @@
     "topic": "Control (HL)",
     "subtopic": "Distributed",
     "questions": [
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "05",
+        "scrollLocation": 0.3038786222581638,
+        "scrollLocationMS": 0.30245946660778433
+      },
       {
         "paper": "2015\\Nov\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "09",
@@ -846,10 +2399,40 @@
         "scrollLocationMS": 0.3822782598069161
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.6919079130324153,
+        "scrollLocationMS": 0.6698105234869588
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "10c-e",
+        "scrollLocation": 0.5017430834055469,
+        "scrollLocationMS": 0.602615003116907
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.3060703942285806,
+        "scrollLocationMS": 0.34565337765224313
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_1__HL.pdf.png",
         "questionNumber": "11a-d",
         "scrollLocation": 0.36598431708012513,
         "scrollLocationMS": 0.4507128192594394
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.592696338997293,
+        "scrollLocationMS": 0.6472910278257191
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "16d",
+        "scrollLocation": 0.879012086010978,
+        "scrollLocationMS": 0.7603743644310348
       }
     ]
   },
@@ -863,6 +2446,48 @@
         "questionNumber": "10",
         "scrollLocation": 0.9000079028701832,
         "scrollLocationMS": 0.7900511007011211
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9020512845726809,
+        "scrollLocationMS": 0.8024242169781433
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9020512845726809,
+        "scrollLocationMS": 0.8024242169781433
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.7421633273250741,
+        "scrollLocationMS": 0.8458932376698051
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8048720053510487,
+        "scrollLocationMS": 0.7843062778326452
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8026237958412336,
+        "scrollLocationMS": 0.8330876721480014
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8627477383839912,
+        "scrollLocationMS": 0.7652712967438419
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.823832083383417,
+        "scrollLocationMS": 0.14474099772889937
       },
       {
         "paper": "2014\\May\\Computer_science_paper_2__SL.pdf.png",
@@ -889,6 +2514,36 @@
         "scrollLocationMS": 0.8504345355121699
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9998149409334285,
+        "scrollLocationMS": 0.9164818160656836
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8179301610046534,
+        "scrollLocationMS": 0.8649028375177285
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8828126745738772,
+        "scrollLocationMS": 0.8659402998514256
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9004099238872352,
+        "scrollLocationMS": 0.8853199823850832
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8517258756308549,
+        "scrollLocationMS": 0.7928473823622295
+      },
+      {
         "paper": "2014\\Nov\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "11c-d",
         "scrollLocation": 0.9182733434230539,
@@ -899,6 +2554,48 @@
         "questionNumber": "12",
         "scrollLocation": 0.9580984574811032,
         "scrollLocationMS": 0.9117870066859073
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.8615346654056876,
+        "scrollLocationMS": 0.812474349195165
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9986250059550686,
+        "scrollLocationMS": 0.9739948674080403
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9662142746991232,
+        "scrollLocationMS": 0.9112752072900975
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.8801986361654669,
+        "scrollLocationMS": 0.8358861721657649
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.9569597823624789,
+        "scrollLocationMS": 0.9205289167517797
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9698082825944756,
+        "scrollLocationMS": 0.8586800066661068
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9325774232264885,
+        "scrollLocationMS": 0.9283885414480857
       }
     ]
   },
@@ -912,6 +2609,36 @@
         "questionNumber": "10",
         "scrollLocation": 0.9000079028701832,
         "scrollLocationMS": 0.7900511007011211
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.7421633273250741,
+        "scrollLocationMS": 0.8458932376698051
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8296942124529595,
+        "scrollLocationMS": 0.43920998774688147
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8048720053510487,
+        "scrollLocationMS": 0.7843062778326452
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8026237958412336,
+        "scrollLocationMS": 0.8330876721480014
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8627477383839912,
+        "scrollLocationMS": 0.7652712967438419
       },
       {
         "paper": "2015\\May\\Computer_science_paper_2__SL.pdf.png",
@@ -950,6 +2677,42 @@
         "scrollLocationMS": 0.8504345355121699
       },
       {
+        "paper": "2017\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8179301610046534,
+        "scrollLocationMS": 0.8649028375177285
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9004099238872352,
+        "scrollLocationMS": 0.8853199823850832
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9011848741190086,
+        "scrollLocationMS": 0.8802097090654178
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8422766330240101,
+        "scrollLocationMS": 0.8793217346352726
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9043991294793533,
+        "scrollLocationMS": 0.8464253152374668
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8517258756308549,
+        "scrollLocationMS": 0.7928473823622295
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "11a-b",
         "scrollLocation": 0.9661289665566853,
@@ -974,10 +2737,28 @@
         "scrollLocationMS": 0.9117870066859073
       },
       {
+        "paper": "2017\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9986250059550686,
+        "scrollLocationMS": 0.9739948674080403
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "13",
         "scrollLocation": 0.982129374213213,
         "scrollLocationMS": 0.9712014051342674
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.9569597823624789,
+        "scrollLocationMS": 0.9205289167517797
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9120829973313986,
+        "scrollLocationMS": 0.8668130990979686
       }
     ]
   },
@@ -991,6 +2772,60 @@
         "questionNumber": "10",
         "scrollLocation": 0.9000079028701832,
         "scrollLocationMS": 0.7900511007011211
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9020512845726809,
+        "scrollLocationMS": 0.8024242169781433
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.9020512845726809,
+        "scrollLocationMS": 0.8024242169781433
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.7661095484488962,
+        "scrollLocationMS": 0.7584470654168577
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8012176229189469,
+        "scrollLocationMS": 0.8137139255323952
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8296942124529595,
+        "scrollLocationMS": 0.43920998774688147
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8048720053510487,
+        "scrollLocationMS": 0.7843062778326452
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8026237958412336,
+        "scrollLocationMS": 0.8330876721480014
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.8627477383839912,
+        "scrollLocationMS": 0.7652712967438419
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "10",
+        "scrollLocation": 0.823832083383417,
+        "scrollLocationMS": 0.14474099772889937
       },
       {
         "paper": "2014\\Nov\\Computer_science_paper_2__SL.pdf.png",
@@ -1035,6 +2870,48 @@
         "scrollLocationMS": 0.9117870066859073
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9998149409334285,
+        "scrollLocationMS": 0.9164818160656836
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.7775467969866806,
+        "scrollLocationMS": 0.7692525221725192
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8179301610046534,
+        "scrollLocationMS": 0.8649028375177285
+      },
+      {
+        "paper": "2017\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8828126745738772,
+        "scrollLocationMS": 0.8659402998514256
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9004099238872352,
+        "scrollLocationMS": 0.8853199823850832
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.9011848741190086,
+        "scrollLocationMS": 0.8802097090654178
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "11",
+        "scrollLocation": 0.8517258756308549,
+        "scrollLocationMS": 0.7928473823622295
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "11c-f",
         "scrollLocation": 0.9719540510815144,
@@ -1053,10 +2930,76 @@
         "scrollLocationMS": 0.9108179703232187
       },
       {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.8615346654056876,
+        "scrollLocationMS": 0.812474349195165
+      },
+      {
+        "paper": "2018\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9984994591025208,
+        "scrollLocationMS": 0.9786398361839799
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.96378494869513,
+        "scrollLocationMS": 0.9286570321064107
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9065587830097517,
+        "scrollLocationMS": 0.9286109113838151
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9662142746991232,
+        "scrollLocationMS": 0.9112752072900975
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.9119248055022027,
+        "scrollLocationMS": 0.9315699372524485
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "12a-b",
         "scrollLocation": 0.9893885697991822,
         "scrollLocationMS": 0.9206249155823653
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.8801986361654669,
+        "scrollLocationMS": 0.8358861721657649
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__SL.pdf.png",
+        "questionNumber": "14",
+        "scrollLocation": 0.9569597823624789,
+        "scrollLocationMS": 0.9205289167517797
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "16",
+        "scrollLocation": 0.9120829973313986,
+        "scrollLocationMS": 0.8668130990979686
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9698082825944756,
+        "scrollLocationMS": 0.8586800066661068
+      },
+      {
+        "paper": "2019\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9325774232264885,
+        "scrollLocationMS": 0.9283885414480857
       }
     ]
   },
@@ -1084,6 +3027,18 @@
         "scrollLocationMS": 0.8702657512922272
       },
       {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.5928245399465965,
+        "scrollLocationMS": 0.6715172693696064
+      },
+      {
+        "paper": "2018\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "12",
+        "scrollLocation": 0.709976871653518,
+        "scrollLocationMS": 0.905784518786423
+      },
+      {
         "paper": "2014\\May\\Computer_science_paper_2__SL.pdf.png",
         "questionNumber": "12c",
         "scrollLocation": 1.0,
@@ -1094,6 +3049,48 @@
         "questionNumber": "13",
         "scrollLocation": 0.7635897037094619,
         "scrollLocationMS": 0.9576754008610182
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.440651539248889,
+        "scrollLocationMS": 0.3623916230299251
+      },
+      {
+        "paper": "2020\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.7081165522217138,
+        "scrollLocationMS": 0.8181627539107278
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "13",
+        "scrollLocation": 0.925007128599943,
+        "scrollLocationMS": 0.8595390054071436
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "14a-d",
+        "scrollLocation": 0.6697177074422591,
+        "scrollLocationMS": 0.7370060032919576
+      },
+      {
+        "paper": "2016\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "15",
+        "scrollLocation": 0.937038377457539,
+        "scrollLocationMS": 0.874254946328544
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_1__HL.pdf.png",
+        "questionNumber": "15",
+        "scrollLocation": 0.8022209502593791,
+        "scrollLocationMS": 0.8120889276049632
+      },
+      {
+        "paper": "2017\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "15",
+        "scrollLocation": 0.9263681689402706,
+        "scrollLocationMS": 0.8959382253570621
       },
       {
         "paper": "2014\\May\\Computer_science_paper_2__HL.pdf.png",
@@ -1108,6 +3105,18 @@
         "scrollLocationMS": 0.9482581307881794
       },
       {
+        "paper": "2016\\May\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9698082825944756,
+        "scrollLocationMS": 0.8586800066661068
+      },
+      {
+        "paper": "2019\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "17",
+        "scrollLocation": 0.9214494711855314,
+        "scrollLocationMS": 0.9361544251194761
+      },
+      {
         "paper": "2015\\May\\Computer_science_paper_2__HL.pdf.png",
         "questionNumber": "18",
         "scrollLocation": 0.9876605105825154,
@@ -1120,10 +3129,28 @@
         "scrollLocationMS": 0.9345620507569622
       },
       {
+        "paper": "2017\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "18",
+        "scrollLocation": 0.9728782868331393,
+        "scrollLocationMS": 0.9429096257059104
+      },
+      {
         "paper": "2015\\Nov\\Computer_science_paper_2__HL.pdf.png",
         "questionNumber": "19",
         "scrollLocation": 0.9765755706631855,
         "scrollLocationMS": 0.9791932851825206
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
+      },
+      {
+        "paper": "2016\\Nov\\Computer_science_paper_2__HL.pdf.png",
+        "questionNumber": "20",
+        "scrollLocation": 1.0,
+        "scrollLocationMS": 0.9826103534829363
       }
     ]
   }

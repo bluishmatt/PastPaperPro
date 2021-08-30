@@ -19,6 +19,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -124,6 +125,8 @@ public class PrimaryController {
         imageViewMS.setFitHeight(markschemeImage.getHeight());
         imageViewMS.setFitWidth(markschemeImage.getWidth());
     }
+
+    int clickedTopicsListview = 0;
 
     public void initialize() throws IOException {
         initializeTopBar();
@@ -235,11 +238,15 @@ public class PrimaryController {
         //a flag to stop the mtopicsChoiceBox action triggering and loading a new paper when you click on a question in the currently loaded Paper paper
 
         QuestionTopicsChoiceBox.setItems(questionsTopicsList);
+        mtopicsChoiceBox.setItems(topics);
+        mpaperChoiceBox.setItems(PaperNames);
+        mtopicSelectListView.setItems(listViewTopicQ);
+        mpaperSelectListView.setItems(listViewPaperQ);
+
         QuestionTopicsChoiceBox.setOnAction(event -> {
             QuestionTopicsChoiceBox.getSelectionModel().selectFirst();
         });
 
-        mtopicsChoiceBox.setItems(topics);
         mtopicsChoiceBox.setOnAction(event -> {
             if(selectAndChangePaper.get() == true ) {
                 try {
@@ -259,7 +266,7 @@ public class PrimaryController {
             }
         });
         
-        mpaperChoiceBox.setItems(PaperNames);
+
         mpaperChoiceBox.setOnAction(event -> {
             try {
                 File paperFile = new File( System.getProperty("user.dir") + "/Papers/" + mpaperChoiceBox.getValue().toString());
@@ -281,19 +288,31 @@ public class PrimaryController {
                     sp = mpaperSelectListView.getItems().get(0).toString().indexOf(" ")-1;
                     questionN = mpaperSelectListView.getItems().get(0).toString().substring(0,sp);
                 }
-
+                outerloop:
                 for (Topic t : topics) {
                     for (Question q : t.getQuestions()) {
                         if (q.getPaper().equals(paper) && q.getQuestionNumber().equals(questionN)) {
                            /// if (q.equals(lastQuestionClicked)) { //found the topic for last question clicked...
-                            setTopicQuestionsList(topics.indexOf(t));
-                            scrollTo(scrollPane, q.getScrollLocation());
-                            scrollTo(scrollPaneMS, q.getScrollLocationMS());
-                            selectAndChangePaper.set(false);
-                            mtopicsChoiceBox.getSelectionModel().select(t);
-                            selectAndChangePaper.set(true);
-                            mpaperSelectListView.getSelectionModel().selectFirst();
-                            setQuestionsTopicsChoiceBox();
+                            if(mtopicsChoiceBox.getItems() == t) {
+                                setTopicQuestionsList(topics.indexOf(t));
+                                scrollTo(scrollPane, q.getScrollLocation());
+                                scrollTo(scrollPaneMS, q.getScrollLocationMS());
+                                selectAndChangePaper.set(false);
+                                mtopicsChoiceBox.getSelectionModel().select(t);
+                                selectAndChangePaper.set(true);
+                                mpaperSelectListView.getSelectionModel().selectFirst();
+                                setQuestionsTopicsChoiceBox();
+                                //break outerloop;
+                            }else if(clickedTopicsListview ==0){
+                                setTopicQuestionsList(topics.indexOf(t));
+                                scrollTo(scrollPane, q.getScrollLocation());
+                                scrollTo(scrollPaneMS, q.getScrollLocationMS());
+                                selectAndChangePaper.set(false);
+                                mtopicsChoiceBox.getSelectionModel().select(t);
+                                selectAndChangePaper.set(true);
+                                mpaperSelectListView.getSelectionModel().selectFirst();
+                                setQuestionsTopicsChoiceBox();
+                            }
                         }
                     }
                 }
@@ -324,7 +343,10 @@ public class PrimaryController {
             }
         });
 
+
+
         mtopicSelectListView.setOnMouseClicked(event -> {
+            clickedTopicsListview = 1;
             lastSelectedList = mtopicSelectListView;
             setQuestionsTopicsChoiceBox();
             Question lastQuestionClicked = getQuestionByLastClicked();
@@ -339,9 +361,8 @@ public class PrimaryController {
                 scrollTo(scrollPaneMS, lastQuestionClicked.getScrollLocationMS());
             }
         });
+        clickedTopicsListview = 0;
 
-        mtopicSelectListView.setItems(listViewTopicQ);
-        mpaperSelectListView.setItems(listViewPaperQ);
     }
 
     public Question getQuestionByLastClicked(){
@@ -491,7 +512,7 @@ public class PrimaryController {
         for (Topic t:topics) {
             for (Question q: t.getQuestions()) {
                 if (q.getPaper().equals(mpaperChoiceBox.getSelectionModel().getSelectedItem().toString())){
-                    topicsListArray.add(t.toString());
+                    topicsListArray.add(q.getQuestionNumber() + " -- " + t.toString());
                 }
             }
         }
@@ -645,13 +666,13 @@ public class PrimaryController {
                                     selectAndChangePaper.set(false);
                                     mtopicsChoiceBox.getSelectionModel().select(t);
                                     selectAndChangePaper.set(true);
-                                    try {
-                                        saveJson(new ActionEvent());
-                                    } catch (IOException e) {
-                                        e.printStackTrace();
-                                    }
                                 }
                             }
+                        }
+                        try {
+                            saveJson(new ActionEvent());
+                        } catch (IOException e) {
+                            e.printStackTrace();
                         }
                     }else{
                         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -799,10 +820,67 @@ public class PrimaryController {
         name.setStyle("-fx-font-weight: bold");
         contents.getChildren().add(name);
         contents.getChildren().add(new Text("as a means to organize past Papers and help improve student learning. \n\r"));
-        contents.getChildren().add(new Text("If this program was useful please send me a line, I would love to hear how/where this is being used. \n\r"));
+        contents.getChildren().add(new Text("If this program was useful please send me a line (bluishmatt@gmail.com), I would love to hear how/where this is being used. \n\r"));
         contents.getChildren().add(new Text("If it is super useful, you can also show your appreciation via paypal: "));
-        contents.getChildren().add(new Hyperlink("Paypal (to be added) bluishmatt@gmail.com"));
-        contents.getChildren().add(new Text("\n\rPlease report any issues or feature requests on github."));
+
+        Hyperlink paypalLink = new Hyperlink("paypal.me/MattElliot86");
+        paypalLink.setOnMouseClicked(event -> {
+            try {
+                Desktop desk=Desktop.getDesktop();
+                desk.browse(new URI("https://www.paypal.me/MattElliot86"));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        });
+        contents.getChildren().add(paypalLink);
+        contents.getChildren().add(new Text("\n\r"));
+
+
+        Button donateToPaypal = new Button();
+        donateToPaypal.setStyle("-fx-graphic: url('images/PayPal.png')");
+        donateToPaypal.setOnMouseClicked(event -> {
+            try {
+                Desktop desk=Desktop.getDesktop();
+                desk.browse(new URI("https://www.paypal.me/MattElliot86"));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        });
+        contents.getChildren().add(donateToPaypal);
+
+        contents.getChildren().add(new Text("\n\r"));
+
+        contents.getChildren().add(new Text("or donate pizza! "));
+        Hyperlink coffeeLink = new Hyperlink("buymeacoffee.com/MattElliot");
+        coffeeLink.setOnMouseClicked(event -> {
+            try {
+                Desktop desk=Desktop.getDesktop();
+                desk.browse(new URI("https://www.buymeacoffee.com/MattElliot"));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        });
+        contents.getChildren().add(coffeeLink);
+        contents.getChildren().add(new Text("\n\r"));
+
+        Button buyMeAPizza = new Button(" (no signup required)");
+        buyMeAPizza.setStyle("-fx-font-weight: bold");
+        buyMeAPizza.setStyle("-fx-graphic: url('images/Pizza.png')");
+        buyMeAPizza.setOnMouseClicked(event -> {
+            try {
+                Desktop desk=Desktop.getDesktop();
+                desk.browse(new URI("https://www.buymeacoffee.com/MattElliot"));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        });
+        contents.getChildren().add(buyMeAPizza);
+
+        contents.getChildren().add(new Text("\n\r"));
+
+        contents.getChildren().add(new Text("Please report any issues or feature requests on github."));
+
+
 
         alert.getDialogPane().setContent(contents);
         alert.showAndWait();
