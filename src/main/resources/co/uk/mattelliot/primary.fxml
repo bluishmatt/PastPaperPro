@@ -63,7 +63,7 @@
            <tabs>
              <Tab text="Paper">
                <content>
-                 <ScrollPane fx:id="scrollPane">
+                 <ScrollPane fx:id="scrollPane" prefHeight="345.0" prefWidth="839.0">
                      <ImageView fx:id="imageView" fitHeight="517.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
                  </ScrollPane>
                </content>
@@ -77,6 +77,15 @@
                      </ScrollPane>
                  </content>
              </Tab>
+               <Tab text="Paper maker">
+                 <content>
+                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                           <Button layoutX="671.0" layoutY="455.0" mnemonicParsing="false" text="make it!" />
+                        </children>
+                     </AnchorPane>
+                 </content>
+               </Tab>
            </tabs>
          </TabPane>
          <ChoiceBox fx:id="QuestionTopicsChoiceBox" layoutX="581.0" layoutY="26.0" prefHeight="25.0" prefWidth="252.0" />

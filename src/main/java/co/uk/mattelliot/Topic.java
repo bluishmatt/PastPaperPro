@@ -6,7 +6,9 @@ public class Topic {
     String number;
     String topic;
     String subtopic;
-    String link;
+    int numQuestions;
+    int marks;
+    int value;
 
     ArrayList<Question> questions = new ArrayList<>();
 
@@ -14,6 +16,7 @@ public class Topic {
         this.number = number;
         this.topic = topic;
         this.subtopic = subtopic;
+
     }
 
     public ArrayList<Question> getQuestions() {
@@ -22,6 +25,7 @@ public class Topic {
 
     public void addQuestion(String paper, String questionNumber, Double scrollLocation, Double scrollLocationMS) {
         this.questions.add(new Question(paper, questionNumber,scrollLocation, scrollLocationMS));
+        this.numQuestions=this.questions.size();
     }
 
     public String getNumber() {

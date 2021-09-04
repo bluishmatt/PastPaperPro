@@ -3,10 +3,14 @@ package co.uk.mattelliot;
 import java.awt.*;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferByte;
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Paths;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -18,6 +22,7 @@ import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
@@ -33,6 +38,7 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -44,9 +50,16 @@ import javafx.scene.text.TextFlow;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+
+
+import nu.pattern.OpenCV;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.ImageType;
 import org.apache.pdfbox.rendering.PDFRenderer;
+import org.opencv.core.*;
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.imgproc.Imgproc;
+
 
 import javax.imageio.ImageIO;
 
@@ -61,6 +74,14 @@ public class PrimaryController {
     @FXML public ScrollPane scrollPane;
     @FXML public ScrollPane scrollPaneMS;
     @FXML public ChoiceBox QuestionTopicsChoiceBox;
+    @FXML public TableColumn subtopicCol;
+    @FXML public TableColumn numberCol;
+    @FXML public TableColumn topicCol;
+    @FXML public TableColumn noQCol;
+    @FXML public TableColumn marksCol;
+    @FXML public TableColumn valueCol;
+    @FXML public TableView topicTable;
+
     @FXML private ListView mpaperSelectListView;
     @FXML private ListView mtopicSelectListView;
     @FXML private ChoiceBox mpaperChoiceBox;
@@ -110,8 +131,100 @@ public class PrimaryController {
 
             document.close();
         } catch (IOException e){
-            System.err.println("Exception while trying to create pdf document - " + e);
+            System.err.println("Exception while trying to create PNG document - " + e);
         }
+    }
+
+    String[] qNumberImages = {"images/01.png", "images/02.png","images/03.png","images/04.png","images/05.png","images/06.png","images/07.png","images/08.png","images/09.png","images/10.png","images/11.png","images/12.png","images/13.png","images/14.png","images/15.png","images/16.png","images/17.png"};
+    String[] qPointImages = {"images/p01.png","images/p02.png","images/p03.png","images/p04.png","images/p05.png","images/p06.png","images/p07.png","images/p08.png"};
+    ArrayList<Double> qNumbersTemp = new ArrayList<>();
+    ArrayList<Integer> qPointsTemp = new ArrayList<>();
+
+    public double[] findNumberInPNG(String imagePath, int qtoFind,String[] images) throws IOException, URISyntaxException {
+        double[] results = new double[3];
+
+        OpenCV.loadShared();
+       // System.loadLibrary("opencv_java451.jar");
+        Mat source=null;
+        Mat template =null;
+        //Load image file
+
+        source = Imgcodecs.imread(imagePath); //crop mat to area of question numbers.
+
+        source = source.submat(1200,source.rows()-1200,56, 85);
+
+        for(int i = 0; i<=qtoFind; i++){
+            //template images
+            BufferedImage bImage = ImageIO.read(getClass().getClassLoader().getResourceAsStream(images[i]));
+            byte[] pixels = ((DataBufferByte) bImage.getRaster().getDataBuffer()).getData();
+            template = new Mat(bImage.getHeight(), bImage.getWidth(), CvType.CV_8UC3);;
+            template.put(0,0, pixels);
+
+            Mat outputImage=new Mat();
+            int machMethod= Imgproc.TM_CCOEFF;
+            //Template matching method
+            Imgproc.matchTemplate(source, template, outputImage, machMethod);
+
+            Core.MinMaxLocResult mmr = Core.minMaxLoc(outputImage);
+            org.opencv.core.Point matchLoc=mmr.maxLoc;
+            //Draw rectangle on result image
+            /**
+               Imgproc.rectangle(source, matchLoc, new org.opencv.core.Point(matchLoc.x + template.cols(),
+                    matchLoc.y + template.rows()), new Scalar(255, 0, 0));
+            **/
+
+            if (i == qtoFind-1) {
+                //System.out.println("found question at Y: " + matchLoc.y);
+                results[0] = matchLoc.y;
+            }else if(i== qtoFind){
+                //System.out.println("question ends at at Y: " + matchLoc.y);
+                results[1]= matchLoc.y;
+            }
+        }
+
+
+
+        return results;
+    }
+
+    public void makePaper() throws IOException {
+        File imageFile = new File( System.getProperty("user.dir") + "/Papers/2020/Nov/Computer_science_paper_1__SL.pdf.png");
+
+        ArrayList<BufferedImage> images = new ArrayList<>();
+        int heightTotal = 0;
+        ArrayList<Question> questionsToPaper = new ArrayList<>();
+        questionsToPaper.add(topics.get(0).getQuestions().get(5));
+        System.out.println(topics.get(0).getQuestions().get(5).getQuestionNumber());
+
+        BufferedImage bufferedImage =null;
+
+        for (Question q: questionsToPaper) {
+            try
+            {
+                bufferedImage = ImageIO.read(imageFile);
+                BufferedImage croppedImage=bufferedImage.getSubimage(0,0,bufferedImage.getWidth(),100);
+                images.add(croppedImage);
+                heightTotal += croppedImage.getHeight();
+            }
+            catch (IOException e)
+            {
+                System.out.println(e);
+            }
+        }
+
+            int heightCurr = 0;
+            BufferedImage concatImage = new BufferedImage(images.get(0).getWidth(), heightTotal, BufferedImage.TYPE_INT_RGB);
+            Graphics2D g2d = concatImage.createGraphics();
+            for(int j = 0; j < images.size(); j++) {
+                g2d.drawImage(images.get(j), 0, heightCurr, null);
+                heightCurr += images.get(j).getHeight();
+            }
+            g2d.dispose();
+
+
+            ImageIO.write(concatImage, "png", new File("test.png")); // export concat image
+
+
     }
 
     public void setImage(String paper, String markscheme){
@@ -128,8 +241,24 @@ public class PrimaryController {
 
     int clickedTopicsListview = 0;
 
-    public void initialize() throws IOException {
+    public void initialize() throws IOException, URISyntaxException {
+        /**
+        double[] results = new double[3];
+        Instant start = Instant.now();
+
+        results = findNumberInPNG(System.getProperty("user.dir") + "/Papers/2020/Nov/Computer_science_paper_1__SL.pdf.png",3, qNumberImages);
+
+
+        Instant end = Instant.now();
+        Duration timeElapsed = Duration.between(start, end);
+        System.out.println(timeElapsed.toMillis());
+
+        System.out.println(results[0]);
+        System.out.println(results[1]);
+         **/
         initializeTopBar();
+
+
         //a list of Paper names for the paper choicebox.
         ObservableList<String> PaperNames = FXCollections.observableArrayList();
         ObservableList<String> PaperToConvert = FXCollections.observableArrayList();
@@ -172,14 +301,19 @@ public class PrimaryController {
                 }
                 PaperToConvert.removeAll(tempArrayList);
 
+                if(PaperToConvert.size() <1){
+                    customAlert("No PDF past papers found. Check the folder structure instructions on github and try again.");
+                }
+
+                //A linear search to go through each file that needs converting.
                 int complete = 0;
                 for (String file: PaperToConvert) {
-                    updateProgress(complete, PaperToConvert.size());
+                    updateProgress(complete, PaperToConvert.size());//updates the progress bar
                     File f = new File(System.getProperty("user.dir") + "/Papers/" + file + ".png");
-                    if (!f.exists()) {
+                    if (!f.exists()) {//if the file doesn't exist, make it!
                         pdftoimage(System.getProperty("user.dir") + "/Papers/" + file);
                     }
-                    complete++;
+                    complete++; //adds one to the progress bar.
                 }
 
                 tempArrayList.clear();
@@ -472,6 +606,7 @@ public class PrimaryController {
 
         tempList.sort(Comparator.comparing(Question::getQuestionNumber));
 
+
         for(int i = 0; i < tempList.size(); i++){
             if(i==0){
                 listViewPaperQ.add(tempList.get(i));
@@ -485,7 +620,12 @@ public class PrimaryController {
                 }
             }
         }
+
         listViewPaperQ.sort(Comparator.comparing(Question::getQuestionNumber));
+        for (Question q:tempList) {
+            System.out.println(q.getQuestionNumber());
+        }
+        System.out.println(tempList.size());
     }
 
     public void setTopicQuestionsList(int topicIndex){

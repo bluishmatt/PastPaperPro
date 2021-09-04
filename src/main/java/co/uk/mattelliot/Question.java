@@ -52,7 +52,7 @@ public class Question implements Comparable<Question>{
 
     @Override
     public String toString() {
-        Pattern pattern = Pattern.compile("paper.*png", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("(paper|qp).*png", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(paper);
         if (matcher.find()) {
             return questionNumber + ". " +paper.substring(0,9) + matcher.group(); // you can get it from desired index as well
