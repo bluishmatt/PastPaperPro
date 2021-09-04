@@ -907,8 +907,11 @@ public class PrimaryController {
         } catch (IOException e) {
             e.printStackTrace();
             customAlert("topics.json not found in root folder. Creating a new empty one. If you wish to import one, read the readme file for details.");
-            File myObj = new File("topics.json");
-            myObj.createNewFile();
+            saveJson(new ActionEvent());
+
+            Reader reader = new FileReader("topics.json");
+            ArrayList<Topic> imports = gson.fromJson(reader, new TypeToken<ArrayList<Topic>>() {}.getType());
+            topics = FXCollections.observableArrayList(imports);
         }
     }
 
