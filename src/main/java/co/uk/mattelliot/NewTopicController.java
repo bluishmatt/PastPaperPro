@@ -58,7 +58,7 @@ public class NewTopicController {
        topicCol.setCellValueFactory(new PropertyValueFactory<Topic,String>("topic"));
        subtopicCol.setCellValueFactory(new PropertyValueFactory<Topic,String>( "subtopic"));
 
-       numberCol.setSortable(false);
+       numberCol.setSortable(true);
        topicCol.setSortable(false);
        subtopicCol.setSortable(false);
 
@@ -146,12 +146,7 @@ public class NewTopicController {
 
 
     public void addNewTopic(ActionEvent actionEvent) {
-        try {
-            topics.add(topics.get(topics.size() - 1));
-        }catch (Exception e){
-            //no previous topic to copy.
-            topics.add(new Topic("1","topic", "subtopic"));
-        }
+            topics.add(new Topic("0","topic", "subtopic"));
     }
 
     public void deleteSelectedRow(ActionEvent actionEvent) {
